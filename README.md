@@ -40,18 +40,17 @@ python code/dicom2nii.py -i example_data/example_data_dicom -o example_data/exam
 ### 3. Run Predictions
 
 Set the necessary environment variables:
-
 ```bash
 export nnUNet_raw="./nnUNet/nnUNet_new/nnUNet_raw"
 export nnUNet_preprocessed="./nnUNet/nnUNet_new/nnUNet_preprocessed"
 export nnUNet_results="./nnUNet/nnUNet_new/nnUNet_results"
-```
+```bash
 
 To run inference:
 
-\`\`\`bash
+```bash
 nnUNetv2_predict -d Dataset001_CombinedData -i example_data/example_data_nifti -o nnUNet_prediction/example_data -f 1 -c 3d_fullres -p PlanfromUMCU -chk checkpoint_best.pth
-\`\`\`
+```bash
 
 ### 4. Run Postprocessing (Optional)
 
