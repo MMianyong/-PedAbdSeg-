@@ -1,5 +1,5 @@
 
-# Pediatric Abdominal Radiotherapy Auto-Contouring
+# Deep learning-based auto-contouring of organs/structures-at-risk for pediatric abdominal radiotherapy 
 
 This repository contains resources for deep learning-based auto-contouring of organs/structures-at-risk for pediatric abdominal radiotherapy. The repository includes: 
 
