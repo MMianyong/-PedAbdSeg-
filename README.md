@@ -3,12 +3,10 @@
 
 This repository contains resources for deep learning-based auto-contouring of organs/structures-at-risk for pediatric abdominal radiotherapy. The repository includes: 
 
-1. **nnUNet Plan**: Configuration files for training the models.
-2. **Best Model Weights**: Pre-trained model weights for inference.
-3. **Postprocess Files**: Scripts and settings for post-processing model predictions.
-4. **Example of Inference Testing**: Scripts and examples for running inference on a public dataset.
-
-
+1. **nnUNet Plan**: nnUNetplan with all hyperparameters based on our data.
+2. **Best Model Weights**: The final selected best model for clinical evaluation.
+3. **Postprocess Files**: The generated postprocess file to apply postprocess based on our validation data. 
+4. **Example data of Inference Testing**: Example of data for inference from Pediatric-CT-SEG
 
 
 
@@ -50,7 +48,7 @@ To run inference:
 
 ```bash
 nnUNetv2_predict -d Dataset001_CombinedData -i example_data/example_data_nifti -o nnUNet_prediction/example_data -f 1 -c 3d_fullres -p PlanfromUMCU -chk checkpoint_best.pth
-```bash
+```
 
 ### 4. Run Postprocessing (Optional)
 
