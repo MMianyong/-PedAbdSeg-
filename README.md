@@ -42,7 +42,7 @@ Set the necessary environment variables:
 export nnUNet_raw="./nnUNet/nnUNet_new/nnUNet_raw"
 export nnUNet_preprocessed="./nnUNet/nnUNet_new/nnUNet_preprocessed"
 export nnUNet_results="./nnUNet/nnUNet_new/nnUNet_results"
-```bash
+```
 
 To run inference:
 
