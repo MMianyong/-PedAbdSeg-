@@ -68,7 +68,7 @@ nnUNetv2_apply_postprocessing -pp_pkl_file ./nnUNet/nnUNet_results/Dataset001_Co
 If you use this repository, please cite the following:
 
 **Our Paper**:
-[Include your paper's citation here]
+[Add later]
 
 **nnUNet**:
 Isensee, F., Jaeger, P. F., Kohl, S. A., Petersen, J., & Maier-Hein, K. H. (2021). nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation. *Nature Methods, 18*(2), 203-211.
