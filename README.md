@@ -1,12 +1,17 @@
 
 # Pediatric Abdominal Radiotherapy Auto-Contouring
 
-This repository contains resources for deep learning-based auto-contouring of organs/structures-at-risk for pediatric abdominal radiotherapy. The repository includes:
+This repository contains resources for deep learning-based auto-contouring of organs/structures-at-risk for pediatric abdominal radiotherapy. The repository includes: 
 
 1. **nnUNet Plan**: Configuration files for training the models.
 2. **Best Model Weights**: Pre-trained model weights for inference.
 3. **Postprocess Files**: Scripts and settings for post-processing model predictions.
 4. **Example of Inference Testing**: Scripts and examples for running inference on a public dataset.
+
+
+
+
+
 
 ## How to Use
 
@@ -56,6 +61,11 @@ To apply postprocessing using the \`postprocessing.pkl\` file (based on our vali
 nnUNetv2_apply_postprocessing -pp_pkl_file ./nnUNet/nnUNet_results/Dataset001_CombinedData/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_0/validation/postprocessing.pkl -i nnUNet_prediction/no_postprocess -o nnUNet_prediction/with_postprocess
 ```
 
+
+
+
+
+
 ## Citation
 
 If you use this repository, please cite the following:
@@ -68,6 +78,10 @@ Isensee, F., Jaeger, P. F., Kohl, S. A., Petersen, J., & Maier-Hein, K. H. (2021
 
 **Pediatric-CT-SEG**:
 Jordan, P., Adamson, P. M., Bhattbhatt, V., Beriwal, S., Shen, S., Radermecker, O., ... & Schmidt, T. G. (2022). Pediatric chest-abdomen-pelvis and abdomen-pelvis CT images with expert organ contours. *Medical Physics, 49*(5), 3523-3528.
+
+
+
+
 
 ## Discussion
 
