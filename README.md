@@ -20,7 +20,7 @@ First, create a Conda environment and install the necessary dependencies, includ
 ```bash
 conda create -n pedseg python=3.10
 conda activate pedseg
-# We used nnUNetv2 ==v2.2 for model training. If you want to use a newer version of nnUNetv2, it is also okay.
+# We used nnUNetv2 ==v2.2 for model training. If you want to use a newer version of nnUNetv2 for inference, it is also okay.
 pip install nnunetv2
 ```
 
