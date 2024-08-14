@@ -6,7 +6,7 @@ This repository contains resources for deep learning-based auto-contouring of or
 1. **nnUNet Plan**: nnUNetplan with all hyperparameters based on our data.
 2. **Best Model Weights**: The final selected best model for clinical evaluation.
 3. **Postprocess Files**: The generated postprocess file to apply postprocess based on our validation data. 
-4. **Example data of Inference Testing**: Example of data for inference from Pediatric-CT-SEG
+4. **Example data of Inference Testing**: Example of data for inference from public dataset [Pediatric-CT-SEG](https://www.cancerimagingarchive.net/collection/pediatric-ct-seg/).
 
 
 
