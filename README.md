@@ -20,6 +20,8 @@ First, create a Conda environment and install the necessary dependencies, includ
 ```bash
 conda create -n pedseg python=3.10
 conda activate pedseg
+# Install pytorch and cuda
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 # We used nnUNetv2 ==v2.2 for model training. If you want to use a newer version of nnUNetv2 for inference, it is also okay.
 pip install nnunetv2
 ```
