@@ -11,7 +11,7 @@ This repository contains resources for deep learning-based auto-contouring of or
 
 
 
-## How to Use
+## How to Use (If you are new to nnUNet)
 
 ### 1. Setup the Environment
 
