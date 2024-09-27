@@ -1,12 +1,16 @@
 
+### All codes and models will be uploaded after the manuscript is accepted.
+
+
 # Deep learning-based auto-contouring of organs/structures-at-risk for pediatric abdominal radiotherapy 
 
-This repository contains resources for deep learning-based auto-contouring of organs/structures-at-risk for pediatric abdominal radiotherapy. The repository includes: 
+This repository contains resources for deep learning-based auto-contouring of organs/structures-at-risk for pediatric abdominal radiotherapy. The repository includes:
 
-1. **nnUNet Plan**: nnUNetplan with all hyperparameters based on our data.
-2. **Best Model Weights**: The final selected best model for clinical evaluation.
-3. **Postprocess Files**: The generated postprocess file to apply postprocess based on our validation data. 
-4. **Example data of Inference Testing**: Example of data for inference from public dataset [Pediatric-CT-SEG](https://www.cancerimagingarchive.net/collection/pediatric-ct-seg/).
+1. **Code for Preprocessing **: Code to convert image and annotation the dicom to nifti.
+2. **nnUNet Plan**: nnUNetplan with all hyperparameters based on our data.
+3. **Best Model Weights**: The final selected best model for clinical evaluation.
+4. **Postprocess Files**: The generated postprocess file to apply postprocess based on our validation data. 
+5. **Example data of Inference Testing**: Example of data for inference from public dataset [Pediatric-CT-SEG](https://www.cancerimagingarchive.net/collection/pediatric-ct-seg/).
 
 
 
@@ -72,8 +76,12 @@ If you use this repository, please cite the following:
 **Our Paper**:
 [Add later]
 
+
 **nnUNet**:
 Isensee, F., Jaeger, P. F., Kohl, S. A., Petersen, J., & Maier-Hein, K. H. (2021). nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation. *Nature Methods, 18*(2), 203-211.
+
+**Totalsegmentator**:
+Wasserthal, J., Breit, H. C., Meyer, M. T., Pradella, M., Hinck, D., Sauter, A. W., ... & Segeroth, M. (2023). TotalSegmentator: robust segmentation of 104 anatomic structures in CT images. Radiology: Artificial Intelligence, 5(5).
 
 **Pediatric-CT-SEG**:
 Jordan, P., Adamson, P. M., Bhattbhatt, V., Beriwal, S., Shen, S., Radermecker, O., ... & Schmidt, T. G. (2022). Pediatric chest-abdomen-pelvis and abdomen-pelvis CT images with expert organ contours. *Medical Physics, 49*(5), 3523-3528.
