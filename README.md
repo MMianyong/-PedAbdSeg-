@@ -6,7 +6,7 @@
 
 This repository contains resources for deep learning-based auto-contouring of organs/structures-at-risk for pediatric abdominal radiotherapy. The repository includes:
 
-1. **Code for Preprocessing **: Code to convert image and annotation the dicom to nifti.
+1. **Code for Preprocessing**: Code to convert image and annotation the dicom to nifti.
 2. **nnUNet Plan**: nnUNetplan with all hyperparameters based on our data.
 3. **Best Model Weights**: The final selected best model for clinical evaluation.
 4. **Postprocess Files**: The generated postprocess file to apply postprocess based on our validation data. 
