@@ -42,7 +42,7 @@ The following labels were used during model training and prediction:
         "iliopsoas_right": 17
     }
 }
-
+```
 ### 1. Setup the Environment
 
 
