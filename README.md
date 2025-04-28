@@ -19,28 +19,30 @@ The model is a 3D full-resolution (`3d_fullres`) nnUNetv2 model trained for 1000
 ### Model labels
 
 The following labels were used during model training and prediction:
-
 ```json
-"labels": {
-    "background": 0,
-    "spleen": 1,
-    "kidney_right": 2,
-    "kidney_left": 3,
-    "heart": 4,
-    "liver": 5,
-    "lung_right": 6,
-    "lung_left": 7,
-    "pancreas": 8,
-    "stomach_bowel": 9,
-    "vertebrae": 10,
-    "spinal_cord": 11,
-    "aorta_abdominal": 12, 
-    "inferior_vena_cava": 13,
-    "autochthon_left": 14,
-    "autochthon_right": 15,
-    "iliopsoas_left": 16,
-    "iliopsoas_right": 17
+{
+    "labels": {
+        "background": 0,
+        "spleen": 1,
+        "kidney_right": 2,
+        "kidney_left": 3,
+        "heart": 4,
+        "liver": 5,
+        "lung_right": 6,
+        "lung_left": 7,
+        "pancreas": 8,
+        "stomach_bowel": 9,
+        "vertebrae": 10,
+        "spinal_cord": 11,
+        "aorta_abdominal": 12,
+        "inferior_vena_cava": 13,
+        "autochthon_left": 14,
+        "autochthon_right": 15,
+        "iliopsoas_left": 16,
+        "iliopsoas_right": 17
+    }
 }
+
 ### 1. Setup the Environment
 
 
