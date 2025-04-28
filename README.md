@@ -98,7 +98,7 @@ If you use this repository, please cite the following:
 
 
 **This work**:  
-Ding, M., Littooij, A. S., Maspero, M., Janssens, G. O., & van den Heuvel-Eibrink, M. M. (2025). Deep learning-based auto-contouring of organs/structures-at-risk for pediatric upper abdominal radiotherapy. *Radiotherapy and Oncology*, in press.
+Ding, M., Maspero, M., Littooij, A. S., van Grotel, M., Fajardo, R. D., van Noesel, M. M., ... & Janssens, G. O.(2025). Deep learning-based auto-contouring of organs/structures-at-risk for pediatric upper abdominal radiotherapy. *Radiotherapy and Oncology*, in press.
 
 
 **nnUNet**:
