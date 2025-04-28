@@ -34,7 +34,7 @@ The following labels were used during model training and prediction:
     "stomach_bowel": 9,
     "vertebrae": 10,
     "spinal_cord": 11,
-    "aorta_abdominal": 12,  # The aorta segmentation stops at the lowest point of the lungs.
+    "aorta_abdominal": 12, 
     "inferior_vena_cava": 13,
     "autochthon_left": 14,
     "autochthon_right": 15,
